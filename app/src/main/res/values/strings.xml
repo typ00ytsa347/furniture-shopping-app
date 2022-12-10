@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">MarshMellow</string>
+    <!-- Strings related to MainActivity -->
+    <string name="search_hint">Search furniture</string>
+    <string name="label_category">Category</string>
+    <string name="label_popular_furns">Top Picks</string>
+    <!-- Strings related to AccountActivity -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail Address</string>
+    <string name="prompt_username">Enter your username</string>
+    <string name="prompt_password">Enter your password</string>
+    <string name="prompt_email">Enter your E-mail Address</string>
+    <string name="action_log_in">Log In</string>
+    <string name="welcome">Welcome to MarshMellow!</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="action_register">Register</string>
+    <string name="prompt_sign_up">Sign Up</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="password_does_not_match">the passwords does not match : (</string>
+    <string name="action_log_out">Log Out</string>
+    <!-- Strings related to activities -->
+    <string name="account">Account</string>
+    <string name="cart">Cart</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="home">Home</string>
+    <!-- Strings related to SearchActivity-->
+    <string name="search_products">Search Products</string>
+    <string name="keyword">Keyword</string>
+    <string name="brand">Brand</string>
+    <string name="category">Category</string>
+    <string name="material">Material</string>
+    <string name="prompt_category">Select a category</string>
+    <string name="action_search">Search!</string>
+    <string name="price">Price</string>
+    <string name="prompt_select_brand">select a brand</string>
+    <string name="enter_keyword">What are you searching for?</string>
+    <string name="enter_advanced_search">enterAdvancedSearch</string>
+    <string name="bg_element">bg_element</string>
+    <string-array name="slider_values">
+        <item>20</item>
+        <item>1200</item>
+    </string-array>
+    <!--arrays for the drop downs-->
+    <string-array name="brand">
+        <item>IKEA</item>
+        <item>Herman Miller</item>
+        <item>Artek</item>
+        <item>Target</item>
+        <item>The Warehouse</item>
+        <item>Carl Hansen</item>
+        <item>Fredericia</item>
+    </string-array>
+    <string-array name="category">
+        <item>Chair</item>
+        <item>Bed</item>
+        <item>Sofa</item>
+        <item>Table</item>
+        <item>Storage</item>
+        <item>Lamp</item>
+        <item>Carpet</item>
+        <item>Others</item>
+    </string-array>
+</resources>

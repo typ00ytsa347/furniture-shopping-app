@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SearchActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_bottom_panel"
+        android:name="com.example.projectone306.BottomPanelFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/fragment_bottom_panel" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="246dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/search_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/bg_element" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="66dp"
+        android:text="@string/search_products"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/keyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/keyword"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintBottom_toTopOf="@id/keyword_edit"/>
+
+    <EditText
+        android:id="@+id/keyword_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="@dimen/space_between_edittext"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/enter_keyword"
+        android:textSize="16sp"
+        android:textColorHint="@color/orange_grey"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keyword" />
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="@dimen/toNextPrompt"
+        android:text="@string/brand"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/keyword_edit"
+        app:layout_constraintBottom_toTopOf="@id/brand_edit"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="@dimen/space_between_edittext"
+        android:layout_marginEnd="44dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/edit_text_bg"
+        android:id="@+id/brand_edit"
+        app:layout_constraintTop_toBottomOf="@+id/brand">
+
+        <Spinner
+            android:id="@+id/brand_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/brand"
+            android:spinnerMode="dropdown"
+            >
+        </Spinner>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="@dimen/toNextPrompt"
+        android:text="@string/category"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brand_edit"
+        app:layout_constraintBottom_toTopOf="@id/category_edit"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="@dimen/space_between_edittext"
+        android:layout_marginEnd="44dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/edit_text_bg"
+        android:id="@+id/category_edit"
+        app:layout_constraintTop_toBottomOf="@+id/category">
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/category" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/price"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/category_edit"
+        app:layout_constraintBottom_toTopOf="@id/price_slider"/>
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_slider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/fredoka_one"
+        app:thumbColor="@color/orange_dark"
+        app:trackColor="@color/orange_dark"
+        app:tickColor="@color/orange_dark"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="19dp"
+        android:paddingBottom="19dp"
+        android:valueFrom="0"
+        android:valueTo="2500"
+        android:stepSize="10"
+        app:values="@array/slider_values"
+        app:labelBehavior="visible"
+        style="@style/Widget.App.Slider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/action_search"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/fredoka_one"
+        android:textAllCaps="false"
+        android:onClick="toSearchable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_slider"
+        app:layout_constraintVertical_bias="0.3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

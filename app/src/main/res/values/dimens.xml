@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <!--    Dimensions related to login/register fragments-->
+    <dimen name="space_between_edittext">6dp</dimen>
+    <dimen name="toNextPrompt">20dp</dimen>
+    <dimen name="category_text_size">16sp</dimen>
+    <dimen name="category_view_width">100dp</dimen>
+</resources>
