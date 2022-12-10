@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" value="0.1485" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/drawable/button_bg.xml" value="0.1875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/drawable/ic_arrow_down_24.xml" value="0.1875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/drawable/ic_wishlist.xml" value="0.1875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_account.xml" value="0.15961199294532627" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_cart.xml" value="0.2203125" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_detail.xml" value="0.2359375" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_list.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/activity_wish_list.xml" value="0.15961199294532627" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/fragment_login.xml" value="0.15961199294532627" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/fragment_register.xml" value="0.335" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout-land/list_items.xml" value="0.2359375" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_account.xml" value="0.17857142857142858" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_cart.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_detail.xml" value="0.25835866261398177" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_list.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_searchable.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/activity_wish_list.xml" value="0.3671875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/add_to_cart_button.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/fragment_account_info.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/fragment_bottom_panel.xml" value="0.17857142857142858" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/fragment_login.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/fragment_register.xml" value="0.2635024549918167" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/gridview_test.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items.xml" value="0.335" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items2.xml" value="0.34297108673978066" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_bar.xml" value="0.5" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_cart.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_list.xml" value="0.3671875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_square.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_square2.xml" value="0.3671875" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/list_items_wishlist.xml" value="0.55" />
+        <entry key="..\:/Users/BA/StudioProjects/project-1-java-team23/app/src/main/res/layout/titlebar.xml" value="0.30520833333333336" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/icon_cart.xml" value="0.1275" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/icon_home.xml" value="0.1275" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/icon_search.xml" value="0.1275" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bottom_nav_colour.xml" value="0.1275" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/category_buttons.xml" value="0.143" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/category_buttons_bg.xml" value="0.1475" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/icon_heart.xml" value="0.1275" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/sv_background.xml" value="0.145" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_account.xml" value="0.22826086956521738" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_cart.xml" value="0.25052083333333336" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" value="0.25416666666666665" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_searchable.xml" value="0.25416666666666665" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_wish_list.xml" value="0.25052083333333336" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/category_buttons.xml" value="0.25416666666666665" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_bottom_nav_view.xml" value="0.22826086956521738" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_bottom_panel.xml" value="0.25052083333333336" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/list_items.xml" value="0.25416666666666665" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" value="0.253125" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/menu/bottom_panel.xml" value="0.25052083333333336" />
+        <entry key="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18854166666666666" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
